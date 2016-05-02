@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name       Remove junk from FastTech
 // @namespace  My Homepage
-// @version    0.17
+// @version    0.19
 // @downloadURL https://raw.githubusercontent.com/bdien/userscripts/master/fasttech_noCig.js
 // @description  Remove ecigarettes/iJunk/GoPro from FastTech
-// @match      http://www.fasttech.com/*
-// @match      https://www.fasttech.com/*
+// @match      http://www.fasttech.com/
+// @match      https://www.fasttech.com/
+// @match      http://www.fasttech.com/category/*
+// @match      https://www.fasttech.com/category/*
 // @grant      none
 // @copyright  2015, Me
 // @require    http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js
