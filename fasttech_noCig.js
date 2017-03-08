@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Remove junk from FastTech
 // @namespace  My Homepage
-// @version    0.20
+// @version    0.21
 // @downloadURL https://raw.githubusercontent.com/bdien/userscripts/master/fasttech_noCig.js
 // @description  Remove ecigarettes/iJunk/GoPro from FastTech
 // @match      http://www.fasttech.com/
@@ -20,6 +20,10 @@ function shouldHide(catId)
         return true;
     if ( (catId >= 3001) && (catId <= 3070))
         return true;
+    // Fishing/hunting stuff
+    if ( (catId >= 1950) && (catId <= 1951))
+        return true;
+    // Hants/Pants/Underwear
     if ( (catId >= 1960) && (catId <= 1972))
         return true;    
     if ((catId == 2106) || (catId == 2119))
